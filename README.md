@@ -12,7 +12,7 @@ https://github.com/lynnadelesadler/Sadler-s-Professional-README-Generator
 
 The URL for Screencastify Video Demo on Google Drive...
 
-https://drive.google.com/file/d/1TcsmPT9p3W1zyd5z9kILYuo6YBiAdxtx/view
+https://drive.google.com/file/d/1WYA6R8FJ8WhElFphDSVwbCmZAocox1z_/view
 
 ## Visuals
 
