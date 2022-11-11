@@ -122,11 +122,28 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (error) => 
+    error ? console.error(error) : console.log('File created!')
+      )};
+
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer
+    .prompt(questions)
+    .then((answers) => {
+      console.log(answers);
+      return generateMarkdown(answers);
+    })
+    .then((fileMarkdown) => {
+      writeToFile("ChallengeREADME.md", fileMarkdown);
+      console.log("Challenge README.md created!");
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+}
 
 // Function call to initialize app
 init();
-
