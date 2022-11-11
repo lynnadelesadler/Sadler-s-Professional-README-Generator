@@ -10,11 +10,15 @@ The URL of the GitHub repository ...
 
 https://github.com/lynnadelesadler/Sadler-s-Professional-README-Generator
 
+The URL for Screencastify Video Demo on Google Drive...
+
+https://drive.google.com/file/d/1TcsmPT9p3W1zyd5z9kILYuo6YBiAdxtx/view
+
 ## Visuals
 
 <!-- Provide the visuals for full display and phone display -->
 This is how Sadler-s-Professional-README-Generator will look when the application is be invoked by using the 'node index.js' command in the terminal...
-![Sadler-s-Professional-README-Generator](./Develop/images/app-questions.PNG)
+![Sadler-s-Professional-README-Generator](./images/app-questions.PNG)
 
 
 
@@ -44,9 +48,9 @@ This is how Sadler-s-Professional-README-Generator will look when the applicatio
 
 - Navigate to your README to see the newly generated file!
 
-_Here you will see a demonstration on how the Whats Up Weather website works._
+_Here you will see a demonstration on Sadler-s-Professional-README-Generator works._
 
-![README GIF](./assets/Image/Weather%20Dashboard.gif)
+![README GIF](./images/GIF-demo.gif)
 
 ## Support
 For help with this webpage please contact
