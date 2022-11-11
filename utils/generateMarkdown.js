@@ -59,9 +59,6 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateTable(data) {
-  if (!data.confirmTable) {
-    return;
-  }
   if (data.license == "None") {
     return `## Table of Contents
   - [Installation](#installation)
